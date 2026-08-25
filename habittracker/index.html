@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habit Tracker — Build Better Routines, One Day at a Time</title>
+  <meta name="description" content="Habit Tracker helps you turn goals into daily routines that stick. Build streaks, get an AI habit coach, and see your progress grow. Free on the App Store.">
+  <meta name="keywords" content="habit tracker, routine planner, streaks, daily habits, atomic habits, productivity, habit app, iOS">
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Habit Tracker — Build Better Routines">
+  <meta property="og:description" content="Turn goals into daily routines that stick. Streaks, an AI habit coach, and progress insights.">
+  <meta property="og:image" content="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/26/91/8e2691d0-fd9d-3f3a-788a-87faa9fa698b/HabitGlassIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon (App Store artwork) -->
+  <link rel="icon" type="image/png" href="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/26/91/8e2691d0-fd9d-3f3a-788a-87faa9fa698b/HabitGlassIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg">
+  <link rel="apple-touch-icon" href="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/26/91/8e2691d0-fd9d-3f3a-788a-87faa9fa698b/HabitGlassIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg">
+
+  <!-- Fonts: Fraunces (display) + Plus Jakarta Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/26/91/8e2691d0-fd9d-3f3a-788a-87faa9fa698b/HabitGlassIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg" alt="Habit Tracker app icon">
+        <span>Habit Tracker</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#philosophy">Philosophy</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="#download" class="btn-ghost btn">Download</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <div class="hero-eyebrow eyebrow">Habits that actually stick</div>
+        <h1>Build better routines, <span class="accent">one day</span> at a time.</h1>
+        <p class="hero-sub">Habit Tracker turns your goals into small daily actions — then helps you keep the streak alive with reminders, insights, and an AI coach in your pocket.</p>
+        <div class="hero-actions">
+          <!-- App Store link (real listing) -->
+          <a class="badge-store" href="https://apps.apple.com/us/app/habit-tracker-better-routines/id6744872820" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.365 1.43c0 1.14-.417 2.2-1.25 3.02-.997.98-2.2 1.55-3.28 1.46-.13-1.1.42-2.26 1.2-3.02.87-.86 2.36-1.5 3.33-1.46zM20.5 17.02c-.55 1.27-.82 1.83-1.53 2.95-.99 1.57-2.39 3.53-4.12 3.54-1.54.02-1.94-.99-4.02-.98-2.08.01-2.52.99-4.06.97-1.73-.02-3.05-1.79-4.04-3.36-2.77-4.4-3.06-9.55-1.35-12.29 1.21-1.94 3.13-3.08 4.93-3.08 1.84 0 2.99 1 4.51 1 1.47 0 2.37-1 4.5-1 1.61 0 3.31.87 4.53 2.38-3.98 2.18-3.33 7.85.22 9.87z"/></svg>
+            <span><span class="b-small">Download on the</span><span class="b-big">App Store</span></span>
+          </a>
+          <a class="btn btn-ghost" href="#features">See what's inside</a>
+        </div>
+        <div class="hero-trust">
+          <span><i class="dot"></i>Free to download</span>
+          <span><i class="dot"></i>iPhone · iOS 16+</span>
+          <span><i class="dot"></i>Inspired by Atomic Habits</span>
+        </div>
+      </div>
+
+      <!-- Pure-CSS app preview -->
+      <div class="preview-wrap">
+        <div class="phone">
+          <div class="phone-screen">
+            <div class="pv-top">
+              <div class="pv-title">Today</div>
+              <div class="pv-streak">🔥 12</div>
+            </div>
+            <div class="pv-day">Wednesday · 3 of 4 done</div>
+
+            <div class="habit done">
+              <div class="tick">✓</div>
+              <div><div class="h-name">Morning workout</div><div class="h-sub">7:00 · every day</div></div>
+              <div class="h-emoji" style="margin-left:auto">💪</div>
+            </div>
+            <div class="habit done">
+              <div class="tick">✓</div>
+              <div><div class="h-name">Read 10 pages</div><div class="h-sub">Evening · daily</div></div>
+              <div class="h-emoji" style="margin-left:auto">📖</div>
+            </div>
+            <div class="habit done">
+              <div class="tick">✓</div>
+              <div><div class="h-name">Drink water</div><div class="h-sub">8 glasses</div></div>
+              <div class="h-emoji" style="margin-left:auto">💧</div>
+            </div>
+            <div class="habit todo">
+              <div class="tick">✓</div>
+              <div><div class="h-name">Meditate</div><div class="h-sub">10 min · daily</div></div>
+              <div class="h-emoji" style="margin-left:auto">🧘</div>
+            </div>
+
+            <div class="pv-bar">
+              <i style="height:40%"></i><i style="height:65%"></i><i style="height:50%"></i>
+              <i style="height:80%"></i><i style="height:70%"></i><i style="height:95%"></i><i style="height:85%"></i>
+            </div>
+          </div>
+        </div>
+        <div class="pv-float">
+          <div class="fi">🌱</div>
+          <div><b>+18%</b><small>this week</small></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== FEATURES ===================== -->
+  <section class="section features" id="features">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" style="justify-content:center">Everything you need</div>
+        <h2>Small actions, compounding results</h2>
+        <p>A calm, focused toolkit designed to make consistency feel effortless — not another chore.</p>
+      </div>
+      <div class="feature-grid">
+        <div class="f-card reveal"><div class="f-ico">🔥</div><h3>Streaks &amp; momentum</h3><p>Watch each habit build a streak. Small wins stack up and keep you coming back day after day.</p></div>
+        <div class="f-card reveal"><div class="f-ico">🤖</div><h3>AI habit coach</h3><p>Stuck or unmotivated? Ask the built-in AI assistant for a plan, a nudge, or a smarter routine.</p></div>
+        <div class="f-card reveal"><div class="f-ico">📊</div><h3>Progress insights</h3><p>Clear graphs show your consistency over weeks and months, so you always know what's working.</p></div>
+        <div class="f-card reveal"><div class="f-ico">⏰</div><h3>Smart reminders</h3><p>Gentle, well-timed notifications help you show up — without turning your phone into a nag.</p></div>
+        <div class="f-card reveal"><div class="f-ico">🗂️</div><h3>Flexible routines</h3><p>Daily, weekly, or custom schedules. Group habits into morning and evening routines that fit your life.</p></div>
+        <div class="f-card reveal"><div class="f-ico">☁️</div><h3>Synced &amp; secure</h3><p>Your habits stay backed up and in sync, so your progress is always safe and with you.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== HOW IT WORKS ===================== -->
+  <section class="section" id="how">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" style="justify-content:center">How it works</div>
+        <h2>Three steps to a better routine</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><h3>Pick your habits</h3><p>Choose from templates or add your own. Set the schedule, time, and a reminder that fits your day.</p></div>
+        <div class="step reveal"><h3>Check in daily</h3><p>Tap to complete each habit. Every check-in grows your streak and keeps your momentum going.</p></div>
+        <div class="step reveal"><h3>Watch yourself grow</h3><p>Review your insights, lean on the AI coach, and adjust as your routine gets stronger over time.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PHILOSOPHY / QUOTE ===================== -->
+  <section class="section quote-band" id="philosophy">
+    <div class="container">
+      <div class="eyebrow">The 1% philosophy</div>
+      <blockquote>“You do not rise to the level of your goals. You fall to the level of your systems.”</blockquote>
+      <cite>— the idea behind every streak in Habit Tracker</cite>
+      <div class="stats">
+        <div class="stat reveal"><b>1%</b><span>better every day</span></div>
+        <div class="stat reveal"><b>4</b><span>routine types</span></div>
+        <div class="stat reveal"><b>∞</b><span>habits you can track</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA ===================== -->
+  <section class="section cta" id="download">
+    <div class="container">
+      <div class="cta-card reveal">
+        <img class="cta-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/26/91/8e2691d0-fd9d-3f3a-788a-87faa9fa698b/HabitGlassIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg" alt="Habit Tracker app icon">
+        <h2>Start your first streak today</h2>
+        <p>Download Habit Tracker free and turn the routine you keep meaning to start into the one you actually keep.</p>
+        <div class="hero-actions">
+          <a class="badge-store" href="https://apps.apple.com/us/app/habit-tracker-better-routines/id6744872820" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.365 1.43c0 1.14-.417 2.2-1.25 3.02-.997.98-2.2 1.55-3.28 1.46-.13-1.1.42-2.26 1.2-3.02.87-.86 2.36-1.5 3.33-1.46zM20.5 17.02c-.55 1.27-.82 1.83-1.53 2.95-.99 1.57-2.39 3.53-4.12 3.54-1.54.02-1.94-.99-4.02-.98-2.08.01-2.52.99-4.06.97-1.73-.02-3.05-1.79-4.04-3.36-2.77-4.4-3.06-9.55-1.35-12.29 1.21-1.94 3.13-3.08 4.93-3.08 1.84 0 2.99 1 4.51 1 1.47 0 2.37-1 4.5-1 1.61 0 3.31.87 4.53 2.38-3.98 2.18-3.33 7.85.22 9.87z"/></svg>
+            <span><span class="b-small">Download on the</span><span class="b-big">App Store</span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img class="footer-logo" src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/26/91/8e2691d0-fd9d-3f3a-788a-87faa9fa698b/HabitGlassIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg" alt="Habit Tracker">
+          <span class="footer-name">Habit Tracker</span>
+        </div>
+        <nav class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="mailto:huseyinaliyagizz@gmail.com">Contact</a>
+        </nav>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Habit Tracker · Huseyin Ali Yagiz. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

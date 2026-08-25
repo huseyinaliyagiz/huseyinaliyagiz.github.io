@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bible AI — Daily Verse &amp; AI Bible Chat</title>
+  <meta name="description" content="Bible AI helps you read Scripture, get a daily verse, and ask questions with an AI Bible assistant. Free on the App Store.">
+  <meta name="keywords" content="bible, bible ai, daily verse, scripture, bible chat, devotional, christian app, bible study, iOS">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bible AI — Daily Verse & AI Bible Chat">
+  <meta property="og:description" content="Read Scripture, get a daily verse, and ask an AI Bible assistant anything about the Word.">
+  <meta property="og:image" content="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/ce/f1/90cef1c8-d22f-1dff-c482-4ef405752096/BibleGlassIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" href="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/ce/f1/90cef1c8-d22f-1dff-c482-4ef405752096/BibleGlassIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg">
+  <link rel="apple-touch-icon" href="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/ce/f1/90cef1c8-d22f-1dff-c482-4ef405752096/BibleGlassIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/ce/f1/90cef1c8-d22f-1dff-c482-4ef405752096/BibleGlassIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg" alt="Bible AI app icon">
+        <span>Bible AI</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#verse">Word</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="#download" class="btn-ghost btn">Download</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <div class="hero-eyebrow eyebrow">Scripture, every day</div>
+        <h1>Read the Word, <span class="accent">grow in faith</span>, one verse at a time.</h1>
+        <p class="hero-sub">Bible AI brings you a daily verse, the full Scriptures, and an AI Bible assistant that helps you understand what you read — anytime, anywhere.</p>
+        <div class="hero-actions">
+          <a class="badge-store" href="https://apps.apple.com/us/app/bible-ai-daily-verse-chat/id6749588211" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.365 1.43c0 1.14-.417 2.2-1.25 3.02-.997.98-2.2 1.55-3.28 1.46-.13-1.1.42-2.26 1.2-3.02.87-.86 2.36-1.5 3.33-1.46zM20.5 17.02c-.55 1.27-.82 1.83-1.53 2.95-.99 1.57-2.39 3.53-4.12 3.54-1.54.02-1.94-.99-4.02-.98-2.08.01-2.52.99-4.06.97-1.73-.02-3.05-1.79-4.04-3.36-2.77-4.4-3.06-9.55-1.35-12.29 1.21-1.94 3.13-3.08 4.93-3.08 1.84 0 2.99 1 4.51 1 1.47 0 2.37-1 4.5-1 1.61 0 3.31.87 4.53 2.38-3.98 2.18-3.33 7.85.22 9.87z"/></svg>
+            <span><span class="b-small">Download on the</span><span class="b-big">App Store</span></span>
+          </a>
+          <a class="btn btn-ghost" href="#features">See what's inside</a>
+        </div>
+        <div class="hero-trust">
+          <span><i class="dot"></i>Free to download</span>
+          <span><i class="dot"></i>iPhone · iOS 16+</span>
+          <span><i class="dot"></i>Multiple translations</span>
+        </div>
+      </div>
+
+      <!-- Pure-CSS app preview -->
+      <div class="preview-wrap">
+        <div class="phone">
+          <div class="phone-screen">
+            <div class="pv-top">
+              <div class="pv-title">Today</div>
+              <div class="pv-streak">🔥 12</div>
+            </div>
+            <div class="pv-day">Daily reading · 2 of 3 done</div>
+
+            <div class="habit done">
+              <div class="tick">✓</div>
+              <div><div class="h-name">John 3</div><div class="h-sub">Gospel · morning</div></div>
+              <div class="h-emoji" style="margin-left:auto">📖</div>
+            </div>
+            <div class="habit done">
+              <div class="tick">✓</div>
+              <div><div class="h-name">Psalm 23</div><div class="h-sub">Daily verse</div></div>
+              <div class="h-emoji" style="margin-left:auto">🕊️</div>
+            </div>
+            <div class="habit todo">
+              <div class="tick">✓</div>
+              <div><div class="h-name">Ask AI: “What does grace mean?”</div><div class="h-sub">Bible assistant</div></div>
+              <div class="h-emoji" style="margin-left:auto">✨</div>
+            </div>
+
+            <div class="pv-bar">
+              <i style="height:40%"></i><i style="height:65%"></i><i style="height:50%"></i>
+              <i style="height:80%"></i><i style="height:70%"></i><i style="height:95%"></i><i style="height:85%"></i>
+            </div>
+          </div>
+        </div>
+        <div class="pv-float">
+          <div class="fi">🕊️</div>
+          <div><b>7 days</b><small>reading streak</small></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== FEATURES ===================== -->
+  <section class="section features" id="features">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" style="justify-content:center">Everything you need</div>
+        <h2>Scripture, made part of every day</h2>
+        <p>A calm, focused Bible companion designed to help you read more and understand more.</p>
+      </div>
+      <div class="feature-grid">
+        <div class="f-card reveal"><div class="f-ico">🌅</div><h3>Daily verse</h3><p>Start each day with a hand-picked verse and a short reflection to carry with you.</p></div>
+        <div class="f-card reveal"><div class="f-ico">✨</div><h3>AI Bible assistant</h3><p>Ask questions about any passage, word, or story and get a clear, thoughtful explanation.</p></div>
+        <div class="f-card reveal"><div class="f-ico">📖</div><h3>Read the full Bible</h3><p>Browse every book and chapter in a clean, distraction-free reader made for focus.</p></div>
+        <div class="f-card reveal"><div class="f-ico">🔖</div><h3>Bookmarks &amp; notes</h3><p>Highlight verses, save favorites, and keep personal notes and prayers in one place.</p></div>
+        <div class="f-card reveal"><div class="f-ico">🗓️</div><h3>Reading plans</h3><p>Follow guided plans and build a daily reading streak that keeps you in the Word.</p></div>
+        <div class="f-card reveal"><div class="f-ico">☁️</div><h3>Synced &amp; secure</h3><p>Your notes and bookmarks stay backed up and in sync, so your journey is always with you.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== HOW IT WORKS ===================== -->
+  <section class="section" id="how">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="eyebrow" style="justify-content:center">How it works</div>
+        <h2>Three steps to a daily habit of reading</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><h3>Open to today's verse</h3><p>Each day begins with a fresh verse and a moment to reflect before you read on.</p></div>
+        <div class="step reveal"><h3>Read &amp; ask</h3><p>Read any chapter, then ask the AI assistant anything you want to understand more deeply.</p></div>
+        <div class="step reveal"><h3>Grow every day</h3><p>Save what speaks to you, follow a plan, and watch your reading streak grow over time.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== VERSE / QUOTE ===================== -->
+  <section class="section quote-band" id="verse">
+    <div class="container">
+      <div class="eyebrow">Word for the day</div>
+      <blockquote>“Your word is a lamp to my feet and a light to my path.”</blockquote>
+      <cite>— Psalm 119:105</cite>
+      <div class="stats">
+        <div class="stat reveal"><b>66</b><span>books to explore</span></div>
+        <div class="stat reveal"><b>365</b><span>daily verses a year</span></div>
+        <div class="stat reveal"><b>∞</b><span>questions you can ask</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA ===================== -->
+  <section class="section cta" id="download">
+    <div class="container">
+      <div class="cta-card reveal">
+        <img class="cta-icon" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/ce/f1/90cef1c8-d22f-1dff-c482-4ef405752096/BibleGlassIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg" alt="Bible AI app icon">
+        <h2>Begin your daily walk in the Word</h2>
+        <p>Download Bible AI free and make reading Scripture a natural part of every day.</p>
+        <div class="hero-actions">
+          <a class="badge-store" href="https://apps.apple.com/us/app/bible-ai-daily-verse-chat/id6749588211" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.365 1.43c0 1.14-.417 2.2-1.25 3.02-.997.98-2.2 1.55-3.28 1.46-.13-1.1.42-2.26 1.2-3.02.87-.86 2.36-1.5 3.33-1.46zM20.5 17.02c-.55 1.27-.82 1.83-1.53 2.95-.99 1.57-2.39 3.53-4.12 3.54-1.54.02-1.94-.99-4.02-.98-2.08.01-2.52.99-4.06.97-1.73-.02-3.05-1.79-4.04-3.36-2.77-4.4-3.06-9.55-1.35-12.29 1.21-1.94 3.13-3.08 4.93-3.08 1.84 0 2.99 1 4.51 1 1.47 0 2.37-1 4.5-1 1.61 0 3.31.87 4.53 2.38-3.98 2.18-3.33 7.85.22 9.87z"/></svg>
+            <span><span class="b-small">Download on the</span><span class="b-big">App Store</span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <img class="footer-logo" src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/ce/f1/90cef1c8-d22f-1dff-c482-4ef405752096/BibleGlassIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg" alt="Bible AI">
+          <span class="footer-name">Bible AI</span>
+        </div>
+        <nav class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="mailto:huseyinaliyagizz@gmail.com">Contact</a>
+        </nav>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Bible AI · Huseyin Ali Yagiz. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

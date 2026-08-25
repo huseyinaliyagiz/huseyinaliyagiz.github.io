@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apps by Huseyin Ali Yagiz</title>
+  <meta name="description" content="Mobile apps by Huseyin Ali Yagiz — privacy policies, terms, and support.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{ --bg:#0f1115; --card:#171a21; --line:#262b36; --ink:#f4f6fb; --muted:#a3adbf; --accent:#8b9cff; }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Plus Jakarta Sans',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;display:flex;flex-direction:column}
+    .wrap{max-width:880px;margin:0 auto;padding:72px 24px;flex:1;width:100%}
+    h1{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:clamp(28px,5vw,40px);letter-spacing:-.02em}
+    .sub{color:var(--muted);margin-top:12px;font-size:17px;line-height:1.6;max-width:56ch}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:44px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;text-decoration:none;color:inherit;transition:border-color .2s,transform .2s;display:flex;gap:16px;align-items:center}
+    .card:hover{border-color:var(--accent);transform:translateY(-2px)}
+    .card img{width:60px;height:60px;border-radius:14px;flex:none}
+    .card h2{font-size:18px;font-weight:700}
+    .card p{color:var(--muted);font-size:14px;margin-top:4px}
+    .links{margin-top:10px;display:flex;gap:14px;flex-wrap:wrap}
+    .links a{color:var(--accent);font-size:13px;text-decoration:none}
+    .links a:hover{text-decoration:underline}
+    footer{border-top:1px solid var(--line);color:var(--muted);font-size:13px;text-align:center;padding:24px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Apps by Huseyin Ali Yagiz</h1>
+    <p class="sub">Independent iOS apps built with care. Choose an app below for its privacy policy, terms of service, and support.</p>
+
+    <div class="grid">
+      <div class="card">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/ce/f1/90cef1c8-d22f-1dff-c482-4ef405752096/BibleGlassIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg" alt="Bible AI icon">
+        <div>
+          <h2>Bible AI</h2>
+          <p>Daily verse &amp; AI Bible chat</p>
+          <div class="links">
+            <a href="aibible/index.html">Home</a>
+            <a href="aibible/privacy.html">Privacy</a>
+            <a href="aibible/terms.html">Terms</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/26/91/8e2691d0-fd9d-3f3a-788a-87faa9fa698b/HabitGlassIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg" alt="Habit Tracker icon">
+        <div>
+          <h2>Habit Tracker</h2>
+          <p>Build better routines</p>
+          <div class="links">
+            <a href="habittracker/index.html">Home</a>
+            <a href="habittracker/privacy.html">Privacy</a>
+            <a href="habittracker/terms.html">Terms</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>&copy; 2026 Huseyin Ali Yagiz. All rights reserved.</footer>
+</body>
+</html>
