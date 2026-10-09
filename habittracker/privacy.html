@@ -18,7 +18,7 @@
       <div class="legal-content">
         <a href="index.html" class="back-link">← Back to Home</a>
         <h1 class="legal-title">Privacy Policy</h1>
-        <p class="legal-updated">Last updated: August 2026</p>
+        <p class="legal-updated">Last updated: October 9, 2026</p>
 
         <div class="legal-section">
           <h2>1. Introduction</h2>
@@ -33,7 +33,8 @@
 
           <p><strong>2.1 Information You Provide</strong></p>
           <ul>
-            <li><strong>Account Information:</strong> If you create or sign in to an account, we collect an account identifier such as your email address (via Firebase Authentication).</li>
+            <li><strong>Account Information:</strong> Firebase Authentication provides an account identifier. If you optionally provide your email during onboarding, we store it in Firestore with that identifier.</li>
+            <li><strong>Optional Email:</strong> As disclosed on the email screen, we collect the address you choose to provide for app news, campaigns, and updates. You can skip this step and use the App without providing an email address. Contact us using the address below to stop marketing emails or request deletion of your email.</li>
             <li><strong>Habit &amp; Routine Data:</strong> The habits, routines, schedules, reminders, notes, and check-ins you create in the App.</li>
             <li><strong>AI Assistant Content:</strong> The prompts and messages you send to the in-app AI habit coach, which are processed to generate responses (see Section 8).</li>
             <li><strong>Communications:</strong> Information you provide when you contact us for support or feedback.</li>
@@ -42,7 +43,7 @@
           <p><strong>2.2 Automatically Collected Information</strong></p>
           <ul>
             <li><strong>Device Information:</strong> Device type, model, operating system and version, unique device identifiers (such as IDFV), language settings, and mobile network information.</li>
-            <li><strong>Advertising &amp; Attribution Identifiers:</strong> With your consent through Apple's App Tracking Transparency (ATT) prompt, your device's Identifier for Advertisers (IDFA). This is used by our advertising and attribution partners (Google AdMob and AppsFlyer) to measure advertising performance, attribute app installs to marketing campaigns, and show you more relevant ads.</li>
+            <li><strong>Advertising &amp; Attribution Identifiers:</strong> With your consent through Apple's App Tracking Transparency (ATT) prompt, your device's Identifier for Advertisers (IDFA). This is used by our advertising and attribution partners (Unity LevelPlay/ironSource and AppsFlyer) to measure advertising performance, attribute app installs to marketing campaigns, and show you more relevant ads.</li>
             <li><strong>Usage Data:</strong> Information about how you interact with the App, including features accessed, habits completed, session duration, buttons tapped, and screens viewed.</li>
             <li><strong>Log &amp; Diagnostic Data:</strong> IP address, access times, app crashes, and system activity (via Firebase Crashlytics and Analytics).</li>
             <li><strong>Purchase Information:</strong> Records of in-app purchases and subscriptions processed through Apple's App Store (Apple handles all payment information directly).</li>
@@ -67,6 +68,7 @@
             <li><strong>Account Management:</strong> To create and manage your account, authenticate users, sync your data, and provide customer support.</li>
             <li><strong>Transaction Processing:</strong> To process your subscriptions and in-app purchases and send related information.</li>
             <li><strong>Communication:</strong> To send you technical notices, updates, security alerts, and support messages.</li>
+            <li><strong>Optional Marketing Communications:</strong> To send app news, campaigns, and updates to the email address you choose to provide during onboarding. You may ask us to stop these messages at any time.</li>
             <li><strong>Analytics:</strong> To monitor and analyze usage patterns and trends to improve the App and user experience.</li>
             <li><strong>Safety and Security:</strong> To detect, prevent, and address technical issues, fraud, and abuse.</li>
             <li><strong>Legal Compliance:</strong> To comply with applicable laws, regulations, and legal processes.</li>
@@ -124,7 +126,7 @@
           <ul>
             <li><strong>Apple App Store:</strong> For app distribution, in-app purchases, and subscription management. Apple's privacy policy applies to payment processing.</li>
             <li><strong>Firebase (Google):</strong> For authentication, cloud data storage (Firestore), crash reporting (Crashlytics), analytics, and remote configuration.</li>
-            <li><strong>Google AdMob:</strong> For displaying advertisements within the App. With your ATT consent, AdMob may use your advertising identifier (IDFA) to serve and measure personalized ads.</li>
+            <li><strong>Unity LevelPlay/ironSource:</strong> For displaying and mediating advertisements within the App. With your ATT consent, the advertising service may use your advertising identifier (IDFA) to serve and measure personalized ads.</li>
             <li><strong>AppsFlyer:</strong> For mobile attribution and marketing analytics (measuring which campaigns lead to installs and purchases). With your ATT consent, AppsFlyer may process your IDFA for cross-app attribution.</li>
             <li><strong>RevenueCat:</strong> For subscription management and related analytics.</li>
             <li><strong>OpenAI:</strong> The in-app AI habit coach sends your prompts to OpenAI's API (via a secure proxy) to generate responses. Please avoid including sensitive personal information in your prompts.</li>
@@ -155,10 +157,10 @@
 
         <div class="legal-section">
           <h2>10. Apple App Tracking Transparency &amp; Advertising</h2>
-          <p>The App displays advertisements (via Google AdMob) and measures marketing performance (via AppsFlyer). In compliance with Apple's App Tracking Transparency (ATT) framework:</p>
+          <p>The App displays advertisements (via Unity LevelPlay/ironSource) and measures marketing performance (via AppsFlyer). In compliance with Apple's App Tracking Transparency (ATT) framework:</p>
           <ul>
             <li>We request your permission through Apple's ATT prompt before using your device's advertising identifier (IDFA) for tracking.</li>
-            <li>If you <strong>allow</strong> tracking, we and our partners (Google AdMob and AppsFlyer) may use your IDFA to measure advertising performance, attribute installs, and show you more relevant ads across apps and websites owned by other companies.</li>
+            <li>If you <strong>allow</strong> tracking, we and our partners (Unity LevelPlay/ironSource and AppsFlyer) may use your IDFA to measure advertising performance, attribute installs, and show you more relevant ads across apps and websites owned by other companies.</li>
             <li>If you <strong>decline</strong>, we do not use your IDFA and do not track you across other companies' apps and websites. You may still see advertisements, but they will be less personalized.</li>
             <li>You can change your choice at any time in iOS <em>Settings &rarr; Privacy &amp; Security &rarr; Tracking</em>.</li>
             <li>We do NOT sell your personal information, and we do NOT share your data with data brokers.</li>
